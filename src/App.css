@@ -1,21 +1,12 @@
-body {
-  background-color: #000000;
+.App {
+	min-height: 100vh;
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
+.card {
+	margin-top: 125px;
 }
-
-.box {
-  width: auto;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icon {
-  font-size: 35px;
-  color: #000;
+img {
+	margin-top: -80px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
 }
